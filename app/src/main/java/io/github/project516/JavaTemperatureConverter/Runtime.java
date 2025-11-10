@@ -14,13 +14,13 @@ public class Runtime {
             String input = scan.nextLine().toLowerCase();
 
             if (input.equals("f")) {
-                System.out.println("Enter Celcus");
+                System.out.print("Enter Celcus: ");
                 Double cel = scan.nextDouble();
-                System.out.println(temp.cToF(cel));
+                System.out.println("Farenghit: " + temp.cToF(cel));
             } else if (input.equals("c")) {
-                System.out.println("Enter Farenghitght");
+                System.out.print("Enter Farenghitght: ");
                 Double far = scan.nextDouble();
-                System.out.println(temp.fToC(far));
+                System.out.println("Celcius: " + temp.fToC(far));
             } else {
                 System.out.println("Invalid input!");
             }
