@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println(info.vendor());
+        System.out.println("Vendor: " + info.vendor());
         Runtime run = new Runtime();
         run.run();
     }
