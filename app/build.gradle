@@ -39,13 +39,13 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'io.github.project516.JavaTemperatureConverter.Main'
+    mainClass = 'dev.project516.JavaTemperatureConverter.Main'
 }
 
 jar {
     manifest {
         attributes(
-            'Main-Class': 'io.github.project516.JavaTemperatureConverter.Main'
+            'Main-Class': 'dev.project516.JavaTemperatureConverter.Main'
         )
     }
 }

@@ -1,4 +1,4 @@
-package io.github.project516.JavaTemperatureConverter;
+package dev.project516.JavaTemperatureConverter;
 
 public class Text {
     void printInst() {

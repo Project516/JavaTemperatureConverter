@@ -1,4 +1,4 @@
-package io.github.project516.JavaTemperatureConverter;
+package dev.project516.JavaTemperatureConverter;
 
 import java.nio.charset.StandardCharsets;
 import java.util.*;
