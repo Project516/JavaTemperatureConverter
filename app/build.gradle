@@ -24,7 +24,7 @@ compileJava.dependsOn spotlessApply
 
 spotless {
     java {
-        googleJavaFormat('1.28.0').aosp()
+        googleJavaFormat('1.35.0').aosp()
         target 'src/**/*.java'
         removeUnusedImports()
     }
@@ -34,6 +34,12 @@ spotless {
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(8)
+    }
+}
+
+javadoc {
+    javadocTool = javaToolchains.javadocToolFor {
+        languageVersion = JavaLanguageVersion.of(25)
     }
 }
 

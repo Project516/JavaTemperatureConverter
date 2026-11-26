@@ -40,6 +40,9 @@ Any unrecognized input prints `Invalid input!` instead of converting.
 
 ## Build from source
 
+Building needs JDK 21 or newer, because the code formatter runs on the
+build JDK. The jar still targets Java 8.
+
 1. Clone the repository:
 
    ```sh
