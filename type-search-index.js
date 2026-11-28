@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"dev.project516.JavaTemperatureConverter","l":"ConvertTemp"},{"p":"dev.project516.JavaTemperatureConverter","l":"Main"},{"p":"dev.project516.JavaTemperatureConverter","l":"Runtime"},{"p":"dev.project516.JavaTemperatureConverter","l":"Text"}];updateSearchResults();
